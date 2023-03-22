@@ -1,0 +1,59 @@
+<!--
+Aaron Rodgers
+CIS 118
+Pacific Trails Resort case study
+17-Mar-2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort</title>
+    <link rel="stylesheet" href="Pacific.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- [if lt IE 9]>
+    <script src="http://html5shim.googlecode.come/svn/trunk/html5.js">
+    </script>
+    <![endif-->
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Pacific Trails Resort Reservations</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="yurts.html">Yurts</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+    </nav>
+    <div id="homeHero">
+
+    </div>
+    <main>
+        <h2>Reservations at Pacific Trails</h2>
+        <h3>Contact Us</h3>
+        <p>Required information is marked with an asterisk (*).</p>
+        <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+            <label for="myFName">* First Name:</label><input type="text" name="myFName" id="myFName" required="required">
+            <label for="myLName">* Last Name:</label><input type="text" name="myLName" id="myLName" required="required">
+            <label for="myEmail">* E-Mail:</label><input type="email" name="myEmail" id="myEmail" required="required">
+            <label for="myPhone">Phone:</label><input type="tel" name="myPhone" id="myPhone">
+            <label for="myDate">Arrival Date:</label><input type="date" name="myDate" id="myDate">
+            <label for="myNights">Nights:</label><input type="number" name="myNights" id="myNights" min="1" max="14">
+            <label for="myComments">* Comments:</label><textarea id="myComments" name="myComments" rows="2" cols="20" required="required"></textarea>
+            <input type="submit" id="mySubmit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        Copyright &copy; 2023 Pacific Trails Resort <br>
+        <a href="mailto:arodg115@365.lakemichigancollege.edu">arodg115@365.lakemichigancollege.edu</a>
+    </footer>
+</div>
+</body>
+</html>
