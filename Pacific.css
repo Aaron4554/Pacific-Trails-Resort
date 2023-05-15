@@ -4,7 +4,7 @@ Aaron Rodgers
 CIS 118
 Pacific Trails Resort case study
 Pacific.CSS
-3-Mar-2023
+4-April-2023
  */
 
 * { box-sizing: border-box;}
@@ -138,6 +138,8 @@ input, textarea {
 video, embed { float: right;
                 margin: 2em;
 }
+.leftFloat {float: left; margin: 1em;}
+.clear {clear: both;}
 @media only screen and (max-width: 1024px) {
     body { margin: 0;
             padding: 0;
